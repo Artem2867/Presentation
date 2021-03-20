@@ -1,0 +1,114 @@
+.part_one {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url(../../../assets/image/SlideThreePartOne.png) center/contain no-repeat;
+}
+.subtitle {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 270px;
+    height: 60px;
+    top: 60.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding-top: 20px;
+}
+.organ_b {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.organ_b img {
+    width: 35px !important;
+    height: 60px !important;
+}
+.organ_muscle {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.organ_liver {
+    position: absolute;
+    top: 55%;
+    right: 13%;
+    transform: translate(-50%, -50%);
+}
+.line {
+    position: absolute;
+    background: white;
+    width: 2px;
+}
+.line_one {
+    height: 200px;
+    top: 35%;
+    left: 38%;
+    transform: rotate(231deg);
+}
+.line_one::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    top: -15px;
+    left: -4px;
+}
+.line_two {
+    height: 84px;
+    top: 42%;
+    left: 50%;
+}
+.line_two::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    bottom: -15px;
+    right: -6px;
+    transform: rotate(179deg);
+}
+
+.line_three {
+    height: 200px;
+    top: 36%;
+    left: 61%;
+    transform: rotate(130deg);
+}
+.line_three::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    top: -14px;
+    left: -5px;
+}
+
+.line_four {
+    height: 50px;
+    top: 58%;
+    left: 32%;
+    transform: rotate(90deg);
+}
+.line_four::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    top: -15px;
+    right: -6px;
+}
+.line_fife {
+    height: 40px;
+    top: 59%;
+    left: 67.5%;
+    transform: rotate(90deg);
+}
+.line_fife::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    bottom: -15px;
+    left: -6px;
+    transform: rotate(180deg);
+}

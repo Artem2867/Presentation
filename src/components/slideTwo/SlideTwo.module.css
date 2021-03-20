@@ -1,0 +1,19 @@
+.slide_two {
+    background: url(../../assets/image/SlideTwo.png) center/contain no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.next_slide {
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+}
+.title {
+    position: absolute;
+    font-size: 62px;
+    color: white;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}

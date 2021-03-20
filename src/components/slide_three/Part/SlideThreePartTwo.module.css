@@ -1,0 +1,249 @@
+.part_two {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url(../../../assets/image/SlideThreePartTwo.png) center/contain no-repeat;
+}
+.container {
+    position: relative;
+}
+.organ_name {
+    font-size: 24px;
+    color: white;
+    line-height: 30px;
+}
+.organ_img {
+    width: 70px;
+    height: 70px;
+}
+.subtitle {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 55px 0;
+}
+.wrapper {
+    position: relative;
+    background: #45477c;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.defect {
+    position: absolute;
+    top: 29%;
+    right: 26.5%;
+    transform: translate(-50%,-50%);
+}
+.defect_name {
+    width: 102px;
+    position: absolute;
+    top: 8px;
+    right: -110px;
+    text-align: start;
+}
+
+.effect {
+    position: absolute;
+    top: 29%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+}
+.effect_name {
+    width: 170px;
+    position: absolute;
+    top: 6px;
+    left: -180px;
+    text-align: end;
+}
+.defect_num, .effect_num {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    color: white;
+}
+.defect_name, .effect_name {
+    font-size: 24px;
+    color: white;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.organ_b {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.organ_b .organ_img img {
+    width: 25px;
+    height: 50px;
+}
+
+.organ_muscle {
+    position: absolute;
+    bottom: 6%;
+    right: 21%;
+    transform: translate(-50%,-50%);
+}
+.organ_muscle .organ_img img {
+    width: 60px;
+    height: 45px;
+}
+.organ_liver {
+    position: absolute;
+    bottom: 6%;
+    right: 37.5%;
+    transform: translate(-50%,-50%);
+}
+.organ_liver .organ_img img {
+    width: 50px;
+    height: 40px;
+}
+.organ_lipid {
+    position: absolute;
+    top: 54%;
+    right: 8%;
+    transform: translate(-50%,-50%);
+}
+.organ_lipid .organ_number {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}
+.organ_lipid .organ_name {
+    position: absolute;
+    bottom: 35px;
+    right: -80px;
+    width: 100px;
+}
+.organ_brain {
+    position: absolute;
+    bottom: 6%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+}
+.organ_brain .organ_img img, .organ_lipid .organ_img img {
+    width: 50px;
+    height: 50px;
+}
+.organ_brain .organ_img, .organ_muscle .organ_img, .organ_liver .organ_img {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.organ_brain .organ_number, .organ_muscle .organ_number, .organ_liver .organ_number{
+    padding-top: 75px;
+}
+.organ_kidney {
+    position: absolute;
+    top: 55%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+}
+.organ_kidney .organ_img img {
+    top: 43%;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+}
+.organ_kidney .organ_number {
+    position: absolute;
+    top: 12px;
+    left: -4px;
+}
+.organ_kidney .organ_name {
+    position: absolute;
+    bottom: 65px;
+    left: -55px;
+}
+
+.line {
+    position: absolute;
+    background: white;
+    width: 2px;
+}
+
+.line_one {
+    height: 33px;
+    top: 33.5%;
+    left: 34%;
+}
+.line_one::before, .line_two::before, .line_three::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    transform: rotate(180deg);
+    bottom: -14px;
+    left: -6px;
+}
+.line_two {
+    height: 35px;
+    top: 33.5%;
+    left: 50%;
+}
+
+.line_three {
+    height: 35px;
+    right: 33%;
+    top: 33.5%;
+}
+.line_four {
+    height: 54px;
+    top: 45.5%;
+    right: 26.5%;
+    transform: rotate(90deg);
+}
+.line_four::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    transform: rotate(181deg);
+    bottom: -14px;
+    left: -6px;
+}
+.line_fife {
+    height: 25px;
+    top: 61%;
+    left: 66.5%;
+}
+.line_fife::before, .line_six::before, .line_seven::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    top: -10px;
+    left: -6px;
+}
+.line_six {
+    height: 25px;
+    top: 61%;
+    left: 50%;
+}
+.line_seven {
+    height: 25px;
+    top: 61%;
+    left: 33.5%;
+}
+.line_eight {
+    height: 50px;
+    top: 46%;
+    left: 27%;
+    transform: rotate(90deg);
+}
+.line_eight::before {
+    content: '\25b2';
+    position: absolute;
+    color: white;
+    top: -13px;
+    left: -5px;
+}

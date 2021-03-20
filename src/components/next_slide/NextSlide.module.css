@@ -1,0 +1,29 @@
+.next_slide {
+    position: relative;
+    margin: 0 auto;
+}
+.title {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+.arrow img {
+    width: 45px;
+    height: 20px;
+    margin-top: 10px;
+}
+.fire img {
+    width: 1024px;
+    height: 140px;
+}
+.conteiner {
+    position: absolute;
+    right: 50%;
+    transform: translateX(65%);
+    bottom: 20px;
+}
+
+
+
+
+  

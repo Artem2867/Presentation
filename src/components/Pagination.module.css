@@ -1,0 +1,16 @@
+.pagination {
+    position: fixed;
+    top: 50vh;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.round {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.active {
+    background-color: orange;
+}
