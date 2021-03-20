@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Test_Presentation/static/css/main.a96c86c3.chunk.css",
+    "main.js": "/Test_Presentation/static/js/main.9a0e9066.chunk.js",
+    "main.js.map": "/Test_Presentation/static/js/main.9a0e9066.chunk.js.map",
+    "runtime-main.js": "/Test_Presentation/static/js/runtime-main.ee718953.js",
+    "runtime-main.js.map": "/Test_Presentation/static/js/runtime-main.ee718953.js.map",
+    "static/js/2.b2014682.chunk.js": "/Test_Presentation/static/js/2.b2014682.chunk.js",
+    "static/js/2.b2014682.chunk.js.map": "/Test_Presentation/static/js/2.b2014682.chunk.js.map",
+    "static/js/3.733e5075.chunk.js": "/Test_Presentation/static/js/3.733e5075.chunk.js",
+    "static/js/3.733e5075.chunk.js.map": "/Test_Presentation/static/js/3.733e5075.chunk.js.map",
+    "index.html": "/Test_Presentation/index.html",
+    "static/css/main.a96c86c3.chunk.css.map": "/Test_Presentation/static/css/main.a96c86c3.chunk.css.map",
+    "static/js/2.b2014682.chunk.js.LICENSE.txt": "/Test_Presentation/static/js/2.b2014682.chunk.js.LICENSE.txt",
+    "static/media/NextSlideFire.caaf739a.png": "/Test_Presentation/static/media/NextSlideFire.caaf739a.png",
+    "static/media/SlideOne.module.css": "/Test_Presentation/static/media/SlideOne.0a2574d6.png",
+    "static/media/SlideThree.module.css": "/Test_Presentation/static/media/SlideThree.ec483b12.png",
+    "static/media/SlideThreePartOne.module.css": "/Test_Presentation/static/media/SlideThreePartOne.60098d73.png",
+    "static/media/SlideThreePartThree.module.css": "/Test_Presentation/static/media/SlideThreePartThree.9f347db1.png",
+    "static/media/SlideThreePartTwo.module.css": "/Test_Presentation/static/media/SlideThreePartTwo.6832d1e8.png",
+    "static/media/SlideTwo.module.css": "/Test_Presentation/static/media/SlideTwo.9c30afce.png",
+    "static/media/brain.a728751a.png": "/Test_Presentation/static/media/brain.a728751a.png",
+    "static/media/infection.7b6d54cb.png": "/Test_Presentation/static/media/infection.7b6d54cb.png",
+    "static/media/intestines.8a6aa075.png": "/Test_Presentation/static/media/intestines.8a6aa075.png",
+    "static/media/kidney.ac0129bd.png": "/Test_Presentation/static/media/kidney.ac0129bd.png",
+    "static/media/lipid.0269e42b.png": "/Test_Presentation/static/media/lipid.0269e42b.png",
+    "static/media/musle.36a7e121.png": "/Test_Presentation/static/media/musle.36a7e121.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee718953.js",
+    "static/js/2.b2014682.chunk.js",
+    "static/css/main.a96c86c3.chunk.css",
+    "static/js/main.9a0e9066.chunk.js"
+  ]
+}
