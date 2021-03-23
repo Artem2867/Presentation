@@ -42,7 +42,7 @@ const animate = (end, up) => {
     const start = window.scrollY
     const movePageUp = (end, start) => {
         const draw = () => {
-            start = start - 16
+            start = start - 24
             window.scrollTo(0, start)
         }
         requestDownId = requestAnimationFrame( function movePageDown () {
@@ -54,7 +54,7 @@ const animate = (end, up) => {
     }
     const movePageDown = (end, start) => {
         const draw = () => {
-            start = start + 16
+            start = start + 24
             window.scrollTo(0, start)
         }
         requestUpId = requestAnimationFrame( function movePageDown () {
