@@ -14,7 +14,7 @@ const SlideOne = ({pagination}) => {
             <div className={style.nameOne}> 
                 <ContentItem name='Цель по HbA1c'/>
             </div>
-            <div className={style.nameOwo}>
+            <div className={style.nameTwo}>
                 <ContentItem name='Гипогликемия'/>
             </div>
             <div className={style.nameThree}>
