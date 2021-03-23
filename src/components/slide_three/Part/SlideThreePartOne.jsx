@@ -10,24 +10,24 @@ import musle from '../../../assets/icon/musle.png'
 
 const SlideThreePartOne = () => {
     return (
-        <div className={style.part_one}>
+        <div className={style.partOne}>
             <div className={SlideStyle.title}>Звенья патогенеза СД2</div>
             <div className={style.subtitle}>Гипергликемия</div>
-            <div className={style.organ_b}>
+            <div className={style.organB}>
                 <Organ
                     number='1'
                     name='β-клетки'
                     img={B}
                     alt='β-клетки'/>
             </div>
-            <div className={style.organ_muscle}>
+            <div className={style.organMuscle}>
                 <Organ
                     number='2'
                     name='Мышцы'
                     img={musle}
                     alt='Мышцы'/>
             </div>
-            <div className={style.organ_liver}>
+            <div className={style.organLiver}>
                 <Organ
                     number='3'
                     name='Печень'
@@ -35,11 +35,11 @@ const SlideThreePartOne = () => {
                     alt='Печень'/>
             </div>
             <div>
-                <div className={`${style.line} ${style.line_one}`}></div>
-                <div className={`${style.line} ${style.line_two}`}></div>
-                <div className={`${style.line} ${style.line_three}`}></div>
-                <div className={`${style.line} ${style.line_four}`}></div>
-                <div className={`${style.line} ${style.line_fife}`}></div>
+                <div className={`${style.line} ${style.lineOne}`}></div>
+                <div className={`${style.line} ${style.lineTwo}`}></div>
+                <div className={`${style.line} ${style.lineThree}`}></div>
+                <div className={`${style.line} ${style.lineFour}`}></div>
+                <div className={`${style.line} ${style.lineFife}`}></div>
             </div>
         </div>
     )

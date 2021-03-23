@@ -1,4 +1,4 @@
-.part_three {
+.partThree {
     position: relative;
     height: 100%;
     width: 100%;
@@ -12,7 +12,7 @@
     color: white;
     font-size: 30px;
 }
-.organ_name {
+.organName {
     font-size: 20px;
 }
 .group {
@@ -26,12 +26,12 @@
     background: linear-gradient(0deg, #060d1e 36%, #33366e 75%);
     z-index: -1;
 }
-.group_title {
+.groupTitle {
     color: white;
     font-size: 18px;
     margin-top: 14px;
 }
-.group .group_organ_wrapper, .organ_brain .group_organ_wrapper{
+.group .groupOrganWrapper, .organBrain .groupOrganWrapper{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -40,107 +40,107 @@
     height: 100px;
     margin-left: 14px;
 }
-.group .organ_img {
+.group .organImg {
     margin: 0;
     margin-right: 10px;
 }
-.group .organ_img img {
+.group .organImg img {
     height: 55px;
 }
-.group .organ_number, .organ_brain .organ_number {
+.group .organNumber, .organBrain .organNumber {
     text-align: left;
 }
-.organ_b {
+.organB {
     position: absolute; 
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.organ_b .organ_descr_wrap {
+.organB .organDescrWrap {
     display: flex;
     width: 215px;
 }
-.organ_b .organ_number {
+.organB .organNumber {
     font-size: 50px;
     margin-right: 15px;
 }
-.organ_b .organ_name {
+.organB .organName {
     font-size: 40px;
 }
-.organ_b .organ_img {
+.organB .organImg {
     height: 80px;
     width: 80px;
 }
-.organ_b .organ_img img {
+.organB .organImg img {
     width: 35px;
     height: 70px;
 }
-.organ_brain {
+.organBrain {
     position: absolute;
     right: -1%;
     top: 17%;
     transform: translate(-50%, 50%);
 }
-.organ_kidney {
+.organKidney {
     position: absolute;
     bottom: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.organ_kidney .group_organ_wrapper, .organ_intestines .group_organ_wrapper, .organ_infection .group_organ_wrapper, .organ_stomach .group_organ_wrapper  {
+.organKidney .groupOrganWrapper, .organIntestines .groupOrganWrapper, .organInfection .groupOrganWrapper, .organStomach .groupOrganWrapper  {
     display: flex;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
     height: 100px;
 }
-.organ_kidney .organ_number, .organ_intestines .organ_number, .organ_infection .organ_number, .organ_stomach .organ_number {
+.organKidney .organNnumber, .organIntestines .organNumber, .organIinfection .organNumber, .organStomach .organNumber {
     text-align: right;
 }
-.organ_kidney .organ_descr_wrap, .organ_intestines .organ_descr_wrap, .organ_infection .organ_descr_wrap, .organ_stomach .organ_descr_wrap {
+.organKidney .organDescrWrap, .organIntestines .organDescrWrap, .organInfection .organDescrWrap, .organStomach .organDescrWrap {
     margin-right: 10px;
 }
-.organ_intestines {
+.organIntestines {
     position: absolute;
     top: 30%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
-.organ_intestines .group_organ_wrapper{
+.organIntestines .groupOrganWrapper{
     display: flex;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
     height: 100px;
 }
-.organ_intestines .organ_name {
+.organIntestines .organName {
     width: 150px;
     text-align: end;
 }
-.organ_infection {
+.organInfection {
     position: absolute;
     top: 45%;
     left: 11%;
     transform: translate(-42%, -50%);
 }
-.organ_infection .group_organ_wrapper {
+.organInfection .groupOrganWwrapper {
     display: flex;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
     height: 100px;
 }
-.organ_infection .organ_name {
+.organInfection .organName {
     width: 280px;
     text-align: end;
 }
-.organ_stomach {
+.organStomach {
     position: absolute;
     top: 68%;
     left: 23%;
     transform: translate(-50%, -50%);
 }
-.organ_stomach .group_organ_wrapper  {
+.organStomach .groupOrganWrapper  {
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -152,16 +152,16 @@
     left: 53%;
     top: 45%;
 }
-.defect_num {
+.defectNum {
     color: white;
     font-size: 34px;
     text-align: start;
 }
-.defect_name {
+.defectName {
     color: white;
     font-size: 18px;
 }
-.defect_arrow {
+.defectArrow {
     position: absolute;
     background: white;
     width: 2px;
@@ -169,7 +169,7 @@
     bottom: -19px;
     left: 5px;
 }
-.defect_arrow::before {
+.defectArrow::before {
     content: '\25b2';
     position: absolute;
     color: white;
@@ -183,21 +183,21 @@
     left: 36%;
     display: flex;
 }
-.effect_num {
+.effectNum {
     color: white;
     font-size: 34px;
     text-align: end;
 }
-.effect_name {
+.effectName {
     color: white;
     font-size: 18px;
     width: 121px;
     text-align: end;
 }
-.effect_arrow {
+.effectArrow {
     position: relative;
 }
-.effect_arrow::before {
+.effectArrow::before {
     content: '\2199';
     position: absolute;
     color: white;
@@ -212,7 +212,7 @@
     left: 25%;
     display: flex;
 }
-.amilin_arrow::before {
+.amilinArrow::before {
     content: '\2199';
     position: absolute;
     color: white;
@@ -221,7 +221,7 @@
     bottom: -2px;
     left: -20px;
 }
-.amilin_name, .glukon_name {
+.amilinName, .glukonName {
     color: white;
     font-size: 15px;
 }
@@ -231,7 +231,7 @@
     right: 39.5%;
     display: flex;
 }
-.glukon_arrow::before {
+.glukonArrow::before {
     content: '\2199';
     position: absolute;
     color: white;
@@ -245,7 +245,7 @@
     background: white;
     width: 2px;
 }
-.line_one::before, .line_two::before, .line_three::before, .line_four::before, .line_fife::before, .line_six::before, .line_seven::before, .line_eight::before, .line_nine::before, .line_ten::before, .line_eleven::before, .line_twelve::before, .line_thirteen::before, .line_fourteen::before, .line_fifteen::before, .line_sixteen::before, .line_seventeen::before, .line_eightteen::before, .line_nineteen::before, .line_twenty::before, .line_twenty_one::before, .line_twenty_two::before {
+.lineOne::before, .lineTwo::before, .lineThree::before, .lineFour::before, .lineFife::before, .lineSix::before, .lineSeven::before, .lineEight::before, .lineNine::before, .lineTen::before, .lineEleven::before, .lineTwelve::before, .lineThirteen::before, .lineFourteen::before, .lineFifteen::before, .lineSixteen::before, .lineSeventeen::before, .lineEightteen::before, .lineNineteen::before, .lineTwenty::before, .lineTwentyOne::before, .lineTwentyTwo::before {
     content: '\25b2';
     position: absolute;
     color: white;
@@ -254,148 +254,148 @@
     transform: rotate(180deg);
 }
 
-.line_one {
+.lineOne {
     height: 129px;
     position: absolute;
     top: 18%;
     left: 39%;
     transform: rotate(80deg);
 }
-.line_two {
+.lineTwo {
     height: 129px;
     position: absolute;
     top: 20%;
     left: 39%;
     transform: rotate(-100deg);
 }
-.line_three {
+.lineThree {
     height: 165px;
     position: absolute;
     top: 24%;
     left: 39%;
     transform: rotate(60deg);
 }
-.line_four {
+.lineFour {
     height: 165px;
     position: absolute;
     top: 27%;
     left: 39%;
     transform: rotate(239deg);
 }
-.line_fife {
+.lineFife {
     height: 254px;
     position: absolute;
     top: 26.5%;
     left: 38%;
     transform: rotate(50deg);
 }
-.line_six {
+.lineSix {
     height: 93px;
     position: absolute;
     top: 32.5%;
     left: 48%;
     transform: rotate(8deg);
 }
-.line_seven {
+.lineSeven {
     height: 93px;
     position: absolute;
     top: 32.5%;
     left: 48%;
     transform: rotate(8deg);
 }
-.line_eight {
+.lineEight {
     height: 250px;
     position: absolute;
     top: 32.5%;
     left: 50%;
 }
-.line_nine {
+.lineNine {
     height: 93px;
     position: absolute;
     top: 32.5%;
     left: 52%;
     transform: rotate(-10deg);
 }
-.line_ten {
+.lineTen {
     height: 140px;
     position: absolute;
     top: 28.5%;
     left: 59%;
     transform: rotate(-55deg);
 }
-.line_eleven {
+.lineEleven {
     height: 140px;
     position: absolute;
     top: 27%;
     left: 60%;
     transform: rotate(125deg);
 }
-.line_twelve {
+.lineTwelve {
     height: 165px;
     position: absolute;
     top: 19%;
     left: 63%;
     transform: rotate(-82deg);
 }
-.line_thirteen {
+.lineThirteen {
     height: 165px;
     position: absolute;
     top: 17%;
     left: 63.5%;
     transform: rotate(98deg);
 }
-.line_fourteen {
+.lineFourteen {
     height: 19px;
     position: absolute;
     top: 35%;
     left: 74.5%;
 }
-.line_fifteen {
+.lineFifteen {
     height: 19px;
     position: absolute;
     top: 35.6%;
     left: 76%;
     transform: rotate(180deg);
 }
-.line_sixteen {
+.lineSixteen {
     height: 28px;
     position: absolute;
     top: 58%;
     left: 27%;
 }
-.line_seventeen {
+.lineSseventeen {
     height: 100px;
     position: absolute;
     top: 55.6%;
     left: 34%;
     transform: rotate(308deg);
 }
-.line_eightteen {
+.lineEightteen {
     height: 67px;
     position: absolute;
     top: 64.6%;
     left: 35%;
     transform: rotate(270deg);
 }
-.line_nineteen {
+.lineNineteen {
     height: 60px;
     position: absolute;
     top: 57.6%;
     left: 45%;
 }
-.line_twenty {
+.lineTwenty {
     height: 30px;
     position: absolute;
     top: 61.6%;
     left: 53.5%;
 }
-.line_twenty_one {
+.lineTwentyOne {
     height: 20px;
     position: absolute;
     top: 70.6%;
     left: 47.5%;
 }
-.line_twenty_two {
+.lineTwentyTwo {
     height: 20px;
     position: absolute;
     top: 71%;

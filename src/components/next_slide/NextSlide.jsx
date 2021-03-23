@@ -5,7 +5,7 @@ import nextSlideFire from '../../assets/image/NextSlideFire.png'
 
 const NextSlide = () => {
     return (
-        <div className={style.next_slide}>
+        <div className={style.nextSlide}>
             <div className={style.conteiner}>
                 <div className={style.title}>Листайте вниз</div>
                 <div className={style.arrow} >

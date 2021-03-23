@@ -1,4 +1,4 @@
-.part_one {
+.partOne {
     position: relative;
     height: 100%;
     width: 100%;
@@ -17,23 +17,23 @@
     border: 2px solid white;
     padding-top: 20px;
 }
-.organ_b {
+.organB {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.organ_b img {
+.organB img {
     width: 35px !important;
     height: 60px !important;
 }
-.organ_muscle {
+.organMuscle {
     position: absolute;
     top: 55%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
-.organ_liver {
+.organLiver {
     position: absolute;
     top: 55%;
     right: 13%;
@@ -44,25 +44,25 @@
     background: white;
     width: 2px;
 }
-.line_one {
+.lineOne {
     height: 200px;
     top: 35%;
     left: 38%;
     transform: rotate(231deg);
 }
-.line_one::before {
+.lineOne::before {
     content: '\25b2';
     position: absolute;
     color: white;
     top: -15px;
     left: -4px;
 }
-.line_two {
+.lineTwo {
     height: 84px;
     top: 42%;
     left: 50%;
 }
-.line_two::before {
+.lineTwo::before {
     content: '\25b2';
     position: absolute;
     color: white;
@@ -71,13 +71,13 @@
     transform: rotate(179deg);
 }
 
-.line_three {
+.lineThree {
     height: 200px;
     top: 36%;
     left: 61%;
     transform: rotate(130deg);
 }
-.line_three::before {
+.lineThree::before {
     content: '\25b2';
     position: absolute;
     color: white;
@@ -85,26 +85,26 @@
     left: -5px;
 }
 
-.line_four {
+.lineFour {
     height: 50px;
     top: 58%;
     left: 32%;
     transform: rotate(90deg);
 }
-.line_four::before {
+.lineFour::before {
     content: '\25b2';
     position: absolute;
     color: white;
     top: -15px;
     right: -6px;
 }
-.line_fife {
+.lineFife {
     height: 40px;
     top: 59%;
     left: 67.5%;
     transform: rotate(90deg);
 }
-.line_fife::before {
+.lineFife::before {
     content: '\25b2';
     position: absolute;
     color: white;

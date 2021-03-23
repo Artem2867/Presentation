@@ -1,10 +1,10 @@
-.slide_two {
+.slideTwo {
     background: url(../../assets/image/SlideTwo.png) center/contain no-repeat;
     height: 100%;
     width: 100%;
     position: relative;
 }
-.next_slide {
+.nextSlide {
     width: 100%;
     position: absolute;
     bottom: -5px;

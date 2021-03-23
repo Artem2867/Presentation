@@ -12,65 +12,65 @@ import lipid from '../../../assets/icon/lipid.png'
 
 const SlideThreePartTwo = () => {
     return (
-        <div className={style.part_two}>
+        <div className={style.partTwo}>
             <div className={SlideStyle.title}>Смертельный октет</div>
             <div className={style.subtitle}>Гипергликемия</div>
             <div className={style.defect}>
                 <div className={style.container}>
-                    <div className={style.defect_name}>
+                    <div className={style.defectName}>
                         Дефект α-клеток 
                     </div>
                     <div className={style.wrapper}>
-                        <div className={style.defect_num}>3</div>
+                        <div className={style.defectNum}>3</div>
                     </div>
                 </div>
             </div>
             <div className={style.effect}>
                 <div className={style.container}>
-                    <div className={style.effect_name}>
+                    <div className={style.effectName}>
                         Инкретиновый эффект   
                     </div>
                     <div className={style.wrapper}>
-                        <div className={style.effect_num}>2</div>
+                        <div className={style.effectNum}>2</div>
                     </div>
                 </div>
             </div>
-            <div className={style.organ_b}>
+            <div className={style.organB}>
                 <Organ
                     number='1'
                     name='β-клетки'
                     img={B}
                     alt='β-клетки'/>
             </div>
-            <div className={style.organ_muscle}>
+            <div className={style.organMuscle}>
                 <Organ
                     number='5'
                     name='Мышцы'
                     img={musle}
                     alt='Мышцы'/>
             </div>
-            <div className={style.organ_liver}>
+            <div className={style.organLiver}>
                 <Organ
                     number='6'
                     name='Печень'
                     img={liver}
                     alt='Печень'/>
             </div>
-            <div className={style.organ_lipid}>
+            <div className={style.organLipid}>
                 <Organ
                     number='4'
                     name='Жировые клетки'
                     img={lipid}
                     alt='Жировые клетки'/>
             </div>
-            <div className={style.organ_brain}>
+            <div className={style.organBrain}>
                 <Organ
                     number='7'
                     name='Гловной мозг'
                     img={brain}
                     alt='Гловной мозг'/>
             </div>
-            <div className={style.organ_kidney}>
+            <div className={style.organKidney}>
                 <Organ
                     number='8'
                     name='Почки'
@@ -78,14 +78,14 @@ const SlideThreePartTwo = () => {
                     alt='Почки'/>
             </div>
             <div>
-                <div className={`${style.line} ${style.line_one}`}></div>
-                <div className={`${style.line} ${style.line_two}`}></div>
-                <div className={`${style.line} ${style.line_three}`}></div>
-                <div className={`${style.line} ${style.line_four}`}></div>
-                <div className={`${style.line} ${style.line_fife}`}></div>
-                <div className={`${style.line} ${style.line_six}`}></div>
-                <div className={`${style.line} ${style.line_seven}`}></div>
-                <div className={`${style.line} ${style.line_eight}`}></div>
+                <div className={`${style.line} ${style.lineOne}`}></div>
+                <div className={`${style.line} ${style.lineTwo}`}></div>
+                <div className={`${style.line} ${style.lineThree}`}></div>
+                <div className={`${style.line} ${style.lineFour}`}></div>
+                <div className={`${style.line} ${style.lineFife}`}></div>
+                <div className={`${style.line} ${style.lineSix}`}></div>
+                <div className={`${style.line} ${style.lineSeven}`}></div>
+                <div className={`${style.line} ${style.lineEight}`}></div>
             </div>
         </div>
     )

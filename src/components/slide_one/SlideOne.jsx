@@ -1,34 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import NextSlide from '../next_slide/NextSlide';
 import ContentItem from './ContentItem';
 import style from './SlideOne.module.css'
-import animationLogicPage, {movePageUp, removeClassActive, addClassActive} from '../../animationLogic/animationLogicPage.js'
+import animationLogicPage, {nextPage} from '../../animationLogic/animationLogicPage.js'
 
 
 
-const SlideOne = () => {
-    const nextPage = () => {
-        let i = 0
-        movePageUp(0, i)
-        removeClassActive('roundOne')
-        addClassActive('roundTwo')
-    }
+const SlideOne = ({pagination}) => {
+    const refSlide = useRef(null)
     return (
-        <div className={style.slide_one} onTouchStart={animationLogicPage} id='1'>
+        <div className={style.slideOne} ref={refSlide} onTouchStart={(e) => animationLogicPage(e, refSlide, pagination)} id='1'>
             <div className={style.title}>Всегда ли цели терапии СД2 <br/> на поверхности?</div>
-            <div className={style.name_one}> 
+            <div className={style.nameOne}> 
                 <ContentItem name='Цель по HbA1c'/>
             </div>
-            <div className={style.name_two}>
+            <div className={style.nameOwo}>
                 <ContentItem name='Гипогликемия'/>
             </div>
-            <div className={style.name_three}>
+            <div className={style.nameThree}>
                 <ContentItem name='Осложнения СД'/>
             </div>
-            <div className={style.name_four}>
+            <div className={style.nameFour}>
                 <ContentItem name='СС риски'/>
             </div>
-            <div className={style.next_slide} onTouchStart={nextPage}>
+            <div className={style.nextSlide} onTouchStart={() => nextPage(768, pagination.roundTwo, pagination.roundOne)}>
                 <NextSlide/>
             </div>
         </div>

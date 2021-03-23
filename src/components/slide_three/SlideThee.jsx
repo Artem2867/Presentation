@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import SlideThreePartOne from './Part/SlideThreePartOne';
 import SlideThreePartThree from './Part/SlideThreePartThree';
 import SlideThreePartTwo from './Part/SlideThreePartTwo';
@@ -7,17 +7,19 @@ import style from './SlideThree.module.css'
 import animationLogicPage from '../../animationLogic/animationLogicPage.js'
 
 
-const SlideThree = () => {
+const SlideThree = ({pagination}) => {
+    const refSlide = useRef(null)
+    const yearcSlideConteiner = useRef()
     return (
-        <div className={style.slide_three} onTouchStart={animationLogicPage} id='3'>
+        <div className={style.slideThree} ref={refSlide} onTouchStart={(e) => animationLogicPage(e, refSlide,pagination)} id='3'>
             <div className={style.slider}>
-                <div className={style.container} id='years_slide_conteiner'>
+                <div className={style.container} ref={yearcSlideConteiner}>
                     <SlideThreePartOne/>
                     <SlideThreePartTwo/>
                     <SlideThreePartThree/>
                 </div>
             </div>
-            <SlideYears/>
+            <SlideYears yearcSlideConteiner={yearcSlideConteiner}/>
         </div>
     )
 }

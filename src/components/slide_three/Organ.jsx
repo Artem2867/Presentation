@@ -6,16 +6,16 @@ import stylePartThree from './Part/SlideThreePartThree.module.css'
 
 const Organ = ({number, name, img, alt}) => {
     return (
-        <div className={`${style.organ} ${stylePartThree.group_organ_wrapper}` }>
-            <div className={stylePartThree.organ_descr_wrap}>
-                <div className={`${style.number} ${stylePartTwo.organ_number} ${stylePartThree.organ_number}`}>
+        <div className={`${style.organ} ${stylePartThree.groupOrganWrapper}` }>
+            <div className={stylePartThree.organDescrWrap}>
+                <div className={`${style.number} ${stylePartTwo.organNumber} ${stylePartThree.organNumber}`}>
                     {number}
                 </div>
-                <div className={`${style.name} ${stylePartTwo.organ_name} ${stylePartThree.organ_name}`}>
+                <div className={`${style.name} ${stylePartTwo.organName} ${stylePartThree.organName}`}>
                     {name}
                 </div>
             </div>
-            <div className={`${style.img} ${stylePartTwo.organ_img} ${stylePartThree.organ_img}`}>
+            <div className={`${style.img} ${stylePartTwo.organImg} ${stylePartThree.organImg}`}>
                 <img src={img} alt={alt}/>
             </div>
         </div>
